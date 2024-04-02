@@ -1,0 +1,33 @@
+/* hero.css */
+.hero {
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+}
+
+/* Style for carousel images */
+.carousel .slide img {
+  width: 100%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for carousel arrows */
+.carousel .control-arrow {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Style for carousel dots */
+.carousel .dot {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Center the carousel content */
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

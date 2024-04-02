@@ -1,0 +1,30 @@
+.diet-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.meal {
+  margin-bottom: 30px;
+}
+
+.meal h2 {
+  margin-bottom: 10px;
+}
+
+.meal ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.meal ul li {
+  margin-bottom: 5px;
+}
+.meal ul li {
+  font-size: 1.2em; /* Adjust the font size value as needed */
+}

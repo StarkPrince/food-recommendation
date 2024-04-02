@@ -1,0 +1,48 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 30%; /* Adjust as necessary */
+    margin-bottom: 20px;
+  }
+  
+  .img {
+    width: 100%;
+  }
+  
+  .text {
+    text-align: center;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Add other styles as necessary */
+  .img img {
+    height: 200px; /* Adjust as necessary */
+    width: 100%; /* Ensure images maintain aspect ratio */
+  }
+
+  .btn2 {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 10px 24px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it into a block element */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add space around the button */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .btn2:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
